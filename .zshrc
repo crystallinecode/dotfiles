@@ -1,7 +1,11 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+#dotfiles alias
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+
+#work files alias
+alias work="/mnt/c/Users/nick/work"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/pengin/.oh-my-zsh"
