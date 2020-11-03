@@ -1,0 +1,5 @@
+vim: jedi documentation toggle: K
+vim: search for next instance of word under cursor:"*"
+terminal: check current shell: Echo $SHELL
+terminal: check current terminal: Echo $TERM
+
