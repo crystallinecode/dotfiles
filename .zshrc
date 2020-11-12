@@ -7,6 +7,9 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 #work files alias
 alias work="/mnt/c/Users/nick/work"
 
+#bclitho folder alias
+alias lithoscripts="/mnt/c/Users/nick/work/src/lithoscripts"
+
 # Path to your oh-my-zsh installation.
 export ZSH="/home/pengin/.oh-my-zsh"
 

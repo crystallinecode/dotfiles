@@ -1,9 +1,5 @@
-"active split switch tip
-" Use ctrl-[hjkl] to select the active split!
-"nmap <silent> <c-k> :wincmd k<CR>
-"nmap <silent> <c-j> :wincmd j<CR>
-"nmap <silent> <c-h> :wincmd h<CR>
-"nmap <silent> <c-l> :wincmd l<CR>
+" make Bd behave as bd without closing split
+command Bd bp\|bd \#
 
 " numbered rows
 set number
@@ -66,6 +62,7 @@ colorscheme zenburn
 
 "jedi remove docstring during completion
 autocmd FileType python setlocal completeopt-=preview
+let g:jedi#popup_on_dot = 0
 
 " syntastic recommended defaults
 set statusline+=%#warningmsg#
